@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+main{
+    margin:auto;
+
+    
+    width: 100%;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product{
+    flex: 0 0 20%;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    justify-content: center;
+    background-color: rgb(207, 236, 245);
+    color: rgb(252, 76, 76);
+    font-size: larger;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(0, 129, 168);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.img{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    overflow: hidden    ;
+}
+img{
+    width: 100%;
+}
+.price{
+    display: flex;
+    border-top: 1px solid rgb(0, 129, 168);  
+    justify-content: right;
+    font-size: larger;
+    padding-right: 10px;
+}
+.container{
+    background-color: rgb(207, 236, 245);
+}
+.inStock{
+    display: flex;
+    justify-content: right;
+    font-size: larger;
+    padding-right: 10px;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    background-color: rgb(161, 205, 255);
+    color: rgb(252, 76, 76);
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.buy:hover{
+    background-color: rgb(89, 167, 255);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    .name{
+        font-size: x-large;
+    }
+    .products{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .price{
+        justify-content: center;
+        font-size: x-large;
+        padding-right: 0px;
+    }
+    .inStock{
+        justify-content: center;
+        font-size: x-large;
+        padding-right: 0px;
+    }
+    .product{
+        flex: 0 0 100%;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .buy{
+        font-size: x-large;
+    }
+  }

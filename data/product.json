@@ -1,0 +1,31 @@
+{
+    "keyboard":[
+    {
+        "id":"PK1",
+        "brand":"Redragon",
+        "model":"K616",
+        "switchType":"Red",
+        "inStock":3,
+        "price":22400,
+        "img":"./imgs/1.jpg"
+    },
+    {
+        "id":"PK2",
+        "brand":"Logitech",
+        "model":"LG150",
+        "switchType":"Blue",
+        "inStock":1,
+        "price":32400,
+        "img":"./imgs/2.jpg"
+    },
+    {
+        "id":"PK3",
+        "brand":"Razer",
+        "model":"RZ9540",
+        "switchType":"KHAILB White",
+        "inStock":4,
+        "price":62400,
+        "img":"./imgs/3.jpg"
+    }
+    ]
+}
